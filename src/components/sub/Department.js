@@ -6,24 +6,28 @@ function Department() {
 		<Layout name={'Department'}>
 			<div className='process'>
 				<h2>Process</h2>
-				<p>
-					Out working method practices a simultaneous exploration of <br />
-					traditional handicraft and cutting edge digital technology – a <br />
-					complementary relationship that drives our creative process.
-				</p>
-				<article>
-					<img src={`${path}/img/meeting.jpg`} alt='' />
-				</article>
-				<h2>Start a project?</h2>
-				<p>
-					At the core of the design studio is a state-of-the art modelling{' '}
-					<br />
-					workshop equipped with 3D rapid prototyping capabilities and a <br />
-					large, programmable manufacturing robot. Alongside traditional <br />
-					woodworking machines, these tools enable rapid prototyping to <br />
-					become an integral part of the design process. Ideas can move <br />
-					seamlessly between analogue and digital worlds.
-				</p>
+				<div className='wrap'>
+					<div className='txt1'>
+						Out working method practices a simultaneous exploration of <br />
+						traditional handicraft and cutting edge digital technology a <br />
+						complementary relationship that drives our creative process.
+					</div>
+					<article>
+						<img src={`${path}/img/meeting.jpg`} alt='' />
+					</article>
+					<h3>Start a project?</h3>
+					<div className='txt2'>
+						At the core of the design studio is a state-of-the art modelling
+						<br />
+						workshop equipped with 3D rapid prototyping capabilities and a{' '}
+						<br />
+						large, programmable manufacturing robot. Alongside traditional{' '}
+						<br />
+						woodworking machines, these tools enable rapid prototyping to <br />
+						become an integral part of the design process. Ideas can move <br />
+						seamlessly between analogue and digital worlds.
+					</div>
+				</div>
 			</div>
 			<div className='team'>
 				<h2>Our team</h2>
