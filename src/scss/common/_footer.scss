@@ -1,16 +1,54 @@
 footer {
 	width: 100%;
-	border-top: 1px solid #bbb;
-	padding: 100px 0px;
-	.inner {
+	border-top: 1px solid #777;
+	padding: 40px 0px 0px 0px;
+	background-color: #fff;
+	article {
 		width: 1180px;
-		margin: 0px auto;
+		margin: 0 auto;
 		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: top;
+		margin-bottom: 50px;
+		.info {
+			width: 580px;
+			margin-right: 20px;
+		}
+		.customer {
+			width: 290px;
+			margin-right: 20px;
+		}
+		.follow {
+			width: 290px;
+		}
+		h3 {
+			font: bold 18px/1.4 'poppins';
+			color: #0998e7;
+			margin-bottom: 20px;
+			letter-spacing: 1px;
+		}
+		ul {
+			li {
+				font: normal 14px/2 'poppins';
+				color: #777;
+			}
+		}
+	}
+	.copy {
+		background-color: #fdce44;
+		padding: 20px 20px;
+		display: flex;
+		justify-content: center;
+		align-items: top;
+		font: bold 12px/1.4 'poppins';
+		color: #0998e7;
 		p {
-			text-align: center;
-			font: 12px/1 'arial';
-			color: #999;
-			letter-spacing: 2px;
+			width: 580px;
+		}
+		li {
+			float: left;
+			margin-right: 20px;
 		}
 	}
 }
