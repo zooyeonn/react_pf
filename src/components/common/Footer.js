@@ -1,5 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faCommentDots } from '@fortawesome/free-solid-svg-icons';
 
 function Footer() {
 	return (
@@ -25,12 +27,12 @@ function Footer() {
 					<h3>Follow us</h3>
 					<ul>
 						<li>
-							{/* <FontAwesomeIcon icon={faInstagram} /> */}
-							instagram
+							<FontAwesomeIcon icon={faInstagram} />
+							<span>Instagram</span>
 						</li>
 						<li>
-							{/* <FontAwesomeIcon icon={faCommentDots} /> */}
-							kakao
+							<FontAwesomeIcon icon={faCommentDots} />
+							<span>KaKao</span>
 						</li>
 					</ul>
 				</div>

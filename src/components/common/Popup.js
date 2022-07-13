@@ -1,4 +1,6 @@
 import { useEffect } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faRectangleXmark } from '@fortawesome/free-solid-svg-icons';
 
 function Popup(props) {
 	useEffect(() => {
@@ -13,7 +15,7 @@ function Popup(props) {
 		<aside className='pop'>
 			<div className='con'>{props.children}</div>
 			<span className='close' onClick={() => props.setOpen(false)}>
-				close
+				<FontAwesomeIcon icon={faRectangleXmark} />
 			</span>
 		</aside>
 	);

@@ -4,12 +4,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 function Header(props) {
-	const active = { color: '#0998e7' };
+	const active = { color: '#2c89bb' };
 	return (
 		<header className={props.type}>
 			<div className='inner'>
 				<h1>
-					<Link to='/'>Shining Energy</Link>
+					<Link to='/'>NATIONAL GEOGRAPHIC</Link>
 				</h1>
 
 				<ul id='gnb'>

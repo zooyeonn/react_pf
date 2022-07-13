@@ -18,12 +18,17 @@
 			.txt1 {
 				float: right;
 				width: 100%;
-				font: normal 18px/1.2 'poppins';
+				font: normal 16px/1.4 'poppins';
 				text-align: right;
 				margin-top: 30px;
 			}
-			article {
-				width: 100%;
+			> article {
+				img {
+					width: 1180px;
+					height: 700px;
+					margin-top: 30px;
+					filter: saturate(80%);
+				}
 			}
 			h3 {
 				width: 100%;
@@ -35,7 +40,7 @@
 			.txt2 {
 				float: left;
 				width: 100%;
-				font: normal 18px/1.2 'poppins';
+				font: normal 16px/1.4 'poppins';
 				text-align: left;
 				margin-top: 50px;
 				margin-bottom: 100px;
@@ -53,20 +58,33 @@
 		}
 
 		.inner {
+			margin-top: 30px;
 			width: 100%;
-			h3 {
-				font: bold 16px/1.2 'poppins';
-				color: #222;
-				letter-spacing: 1px;
-			}
-			p {
-				font: normal 14px/1.2 'poppins';
-				color: #666;
-			}
+			border-bottom: 4px solid #222;
+			display: flex;
+			justify-content: center;
+			text-align: center;
+		}
 
-			.member1 {
-				width: 380px;
-				margin-right: 20px;
+		h3 {
+			font: bold 16px/1.2 'poppins';
+			color: #222;
+			letter-spacing: 1px;
+			margin-bottom: 5px;
+		}
+		p {
+			font: normal 14px/1.2 'poppins';
+			color: #666;
+			margin-bottom: 30px;
+		}
+
+		img {
+			width: 180px;
+			margin-right: 10px;
+			margin-bottom: 20px;
+			filter: saturate(0%);
+			&:hover {
+				filter: saturate(80%) sepia(40%);
 			}
 		}
 	}

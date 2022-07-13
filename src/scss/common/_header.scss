@@ -1,18 +1,20 @@
 header {
 	width: 100%;
+
 	.inner {
 		width: 1180px;
-		height: 80px;
+		height: 60px;
 		margin: 0 auto;
 		position: relative;
 
 		h1 {
 			position: absolute;
-			bottom: 20px;
+			bottom: 10px;
 			left: 0px;
+			color: #fdce44;
 			a {
-				font: bold 24px/1 'arial';
-				color: #fdce44;
+				font: bold 18px 'poppins';
+				letter-spacing: -1px;
 			}
 		}
 		#gnb {
@@ -24,7 +26,7 @@ header {
 				a {
 					display: inline-block;
 					padding: 20px 30px;
-					font: bold 14px/1 'arial';
+					font: bold 14px/1 'poppins';
 					color: #fdce44;
 				}
 			}
@@ -42,10 +44,14 @@ header {
 		background: #fff;
 		.inner {
 			h1 a {
-				color: #fdce44;
+				color: #333;
 			}
 			#gnb li a {
-				color: #fdce44;
+				color: #333;
+				&:hover {
+					background: #ffe33d;
+					color: #fff;
+				}
 			}
 			.fa-bars {
 				color: #333;
@@ -53,7 +59,7 @@ header {
 		}
 	}
 	&.main {
-		background: transparent;
+		height: 800px;
 		border-bottom: 1px solid #fff;
 		position: absolute;
 		top: 0px;
@@ -61,10 +67,10 @@ header {
 		z-index: 2;
 		.inner {
 			h1 a {
-				color: #fdce44;
+				color: #2c89bb;
 			}
 			#gnb li a {
-				color: #fdce44;
+				color: #333;
 			}
 			.fa-bars {
 				color: #fff;
