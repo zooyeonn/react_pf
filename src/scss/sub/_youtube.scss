@@ -11,13 +11,13 @@
 			border-bottom: 4px solid #222;
 			color: #222;
 			font: bold 36px/1.4 'poppins';
-			margin-bottom: 30px;
+			margin-bottom: 50px;
 		}
 	}
 
 	article {
 		width: 1180px;
-		margin-top: 20px;
+		margin-top: 100px;
 		padding: 20px 0px;
 		display: flex;
 		flex-wrap: wrap;
@@ -27,7 +27,7 @@
 			width: 60%;
 			height: 400px;
 			background: #ffe33d;
-			filter: opacity(30%);
+			filter: opacity(50%);
 			transition: 0.5s;
 			img {
 				width: 100%;
@@ -44,17 +44,17 @@
 			height: 400px;
 			display: flex;
 			flex-wrap: wrap;
-			border-left: 5px solid #ffe33d;
 			padding: 0px 0px 0px 10px;
 
 			h3 {
-				font: bold 24px/1.4 'Noto Sans Korean';
+				font: bold 28px/1.4 'poppins';
 				color: #2c89bb;
 				letter-spacing: 1px;
+				text-decoration: underline #ffe33d;
 			}
 
 			p {
-				font: normal 16px/1.4 'Noto Sans Korean';
+				font: normal 16px/1.4 'poppins';
 				color: #555;
 				letter-spacing: 1px;
 			}
